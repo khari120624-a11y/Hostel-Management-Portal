@@ -1,11 +1,13 @@
 {
-  "name": "hostel-management-mern-workspace",
+  "name": "hostel-management-portal",
   "version": "1.0.0",
   "description": "Hostel Management System workspace",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "postinstall": "npm --prefix hostel-management-system/server install",
     "server": "cd hostel-management-system/server && npm run dev",
     "client": "cd hostel-management-system/client && npm run dev",
     "seed": "cd hostel-management-system/server && npm run seed"
   }
 }
-
