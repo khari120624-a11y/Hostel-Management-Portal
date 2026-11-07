@@ -1,0 +1,15 @@
+{
+  "name": "hostel-management-system",
+  "version": "1.0.0",
+  "description": "Full-Stack MERN Hostel Management System",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "start": "cd server && node server.js"
+  },
+  "keywords": ["mern", "hostel", "management", "react", "express", "mongodb"],
+  "author": "",
+  "license": "ISC"
+}
+
