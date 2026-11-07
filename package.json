@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "postinstall": "npm --prefix hostel-management-system/server install",
+    "postinstall": "npm --prefix hostel-management-system/server install && npm --prefix hostel-management-system/client install && npm --prefix hostel-management-system/client run build",
     "server": "cd hostel-management-system/server && npm run dev",
     "client": "cd hostel-management-system/client && npm run dev",
     "seed": "cd hostel-management-system/server && npm run seed"
