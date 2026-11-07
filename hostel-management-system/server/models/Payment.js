@@ -39,7 +39,7 @@ const paymentSchema = new mongoose.Schema(
     },
     paymentMethod: {
       type: String,
-      enum: ['UPI', 'Cash', 'Bank Transfer', 'Credit/Debit Card', 'Online NetBanking'],
+      enum: ['UPI', 'Cash', 'Bank Transfer', 'Credit/Debit Card', 'Online NetBanking', 'NetBanking'],
       default: 'UPI',
     },
     transactionId: {
